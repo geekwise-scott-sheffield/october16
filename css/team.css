@@ -1,0 +1,131 @@
+
+/**{*/
+/*    border: 1px solid orange;*/
+    
+/*}*/
+
+html,body{
+    
+    margin:0;
+    padding:0;
+    
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/*this will contain the navigation bar,
+geekwise text logo,
+and the upside down owl*/
+
+
+.header{
+    width: 100%;
+    height: 22%;
+    
+    text-align: center;
+    display: inline;
+    
+    
+    float: left;
+    
+}
+
+.logo_words{
+    float: left;
+    margin-top: .5%;
+    margin-left: 29.7%;
+    
+}
+
+.links{
+    text-align: left;
+    float: left;
+    width: 36%;
+    
+    margin-left: 3.7%;
+    margin-top: 1%;
+    
+}
+
+.header > .links > a{
+    padding-left: 1%;
+    padding-right: 1%;
+    
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 101%;
+}
+
+#signup{
+    margin-left: 3.3%;
+    
+    padding-top: 2.7%;
+    padding-bottom: 2.6%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+    background-color: #f9da0c;
+}
+
+.header > .links > a:hover{
+    color: #7a1501;
+}
+
+.sneekie_beaky{
+    
+    float: right;
+    text-align: right;
+    
+}
+
+.menu{
+    width: 100%;
+    height: 10%;
+    
+    float: left;
+    text-align: center;
+}
+
+.the_team{
+    
+    font-weight: bold;
+    color: black;
+    font-size: 220%;
+    
+}
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+/*LANDSCAPE*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    
+    body{
+        background-color: blue;
+    }
+    
+}
+
+
+/*PORTRAIT*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    
+    body{
+        background-color: red;
+    }
+    
+}

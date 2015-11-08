@@ -1,0 +1,254 @@
+/**{*/
+/*    border: 1px solid blue;*/
+    
+    
+/*}*/
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    
+    background-color: #7a1501;
+    
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+/*entire top link menu with slogan and obstructed owl*/
+
+header{
+    
+    background-color: white;
+    
+    padding-top: .71%;
+    
+    width: 100%;
+    height: 25%;
+    
+    float: left;
+    text-align: center;
+}
+
+/*.nav_before{*/
+    
+    /*background-color: steelBlue;*/
+    
+/*    display: inline;*/
+/*    float: left;*/
+    
+/*    width: 29.5%;*/
+/*    height: 100%;*/
+    
+/*}*/
+
+nav{ /*border: 2px solid blue;*/
+    
+    display: inline-block;
+    float: none;
+    
+    width: 45%;
+    height: 100%;
+    
+}
+
+/*.nav_after{*/
+    
+    /*background-color: steelBlue;*/
+    
+/*    display: inline;*/
+/*    float: right;*/
+    
+/*    width: 29.5%;*/
+/*    height: 100%;*/
+    
+/*}*/
+
+.top_navigation{
+    height: 30%;
+    width: 100%;
+}
+
+.logo_words{
+    
+    float: left;
+    margin-top: 1%;
+    
+}
+
+#about_link{
+    color: #7a1501;
+    
+}
+
+.nav_split{
+    width: 100%;
+    height: 9.7%;
+}
+
+.tag_line{
+    
+    background-image: url('http://geekwiseacademy.com//img/owl-about.png');
+    background-repeat: no-repeat;
+    
+    height: 60%;
+    width: 100%;
+    
+    text-align: right;
+    float: left;
+    
+}
+
+.s_1{
+    display: block;
+    font-weight: bold;
+    font-size: 160%;
+    
+}
+
+.s_2{
+    display: block;
+    font-weight: bold;
+    font-size: 160%;
+    
+}
+
+.navigation{
+    padding-top: 2%;
+    padding: 1%;
+    
+    font-size: 140%;
+    text-decoration: none;
+    
+    background-color: white;
+    color: black;
+    
+}
+
+.navigation:hover{
+    color: #7a1501;
+    
+}
+
+/*entire top link menu with slogan and obstructed owl*/
+
+
+
+/*.section_before{*/
+    
+/*    display: inline;*/
+/*    float: left;*/
+    
+/*    width: 29.5%;*/
+/*    height: 67%;*/
+    
+/*}*/
+
+section{ /*border: 2px solid white;*/
+    
+    background-color: #7a1501;
+    
+    /*display: inline-block;*/
+    float: right;
+    
+    width: 100%;
+    height: 67%;
+    
+}
+
+/*.section_after{*/
+    
+/*    display: inline;*/
+/*    float: right;*/
+    
+/*    width: 29.5%;*/
+/*    height: 67%;*/
+    
+/*}*/
+
+.sign_up_button_middle{
+    
+    background-color: #f9da0c;
+    
+    float: none;
+    
+    text-align: center;
+    display: table;
+    margin: auto;
+    transform: translatey(-50%);
+    padding: 1%;
+    vertical-align: middle;
+    
+}
+
+.sign_up_button_middle > a{
+    
+    text-decoration: none;
+    color: #7a1501;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    float: left;
+    width: 100%;
+    height: 5%;
+    background-color: #f9da0c;
+    
+    text-align: center;
+    
+}
+
+footer > span{
+    
+    padding-top: 50%;
+    color: #7a1501;
+    
+}
+
+
+
+/*MEDIA QUERIES*/
+
+/*LANDSCAPE*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    
+    body{
+        background-color: blue;
+    }
+    
+}
+
+
+/*PORTRAIT*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    
+    body{
+        background-color: red;
+    }
+    
+}
